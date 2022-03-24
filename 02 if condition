@@ -1,0 +1,22 @@
+let time=12.00
+if(time<=9.00){
+  console.log("college cloosed")
+}
+  if(time>=9.00&&time<12.00){
+    console.log("morning class")
+  }
+    if(time>=12.00&&time<13.00){
+      console.log("lunch break")
+    }
+      if (time>=13.00&&time<16.00){
+        console.log("afternoon class")
+      }
+        if(time>=16.00&&time<17.00){
+          console.log("tea break")
+        }
+          if(time>=17.00&&time<19.00){
+            console.log("eveingclass")
+          }
+          if(time>19.00){
+            console.log("college cloosed")
+          }
