@@ -1,0 +1,8 @@
+let data="10+20"
+let operatorIndex=data.indexOf('+')
+let operator1Index=data.indexOf('-')
+let operator2Index=data.indexOf('*')
+let operator3Index=data.indexOf('/')
+console.log(data.indexOf('+'))
+console.log(data.substring(0,operatorIndex))
+console.log(data.substring(operatorIndex+1))
