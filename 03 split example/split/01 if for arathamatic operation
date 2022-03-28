@@ -1,0 +1,24 @@
+let data="10-20"
+let operatorIndex=data.indexOf('+')
+let operator1Index=data.indexOf('-')
+let operator2Index=data.indexOf('*')
+let operator3Index=data.indexOf('/')
+let foundOperatorIndex;
+let foundOpetaor;
+if(operatorIndex!==-1){
+  foundOperatorIndex=operatorIndex
+  foundOperator='+'
+}else if(operator1Index!==-1){
+  foundOperatorIndex=operator1Index
+  foundOperator='-'
+}else if(operator2Index!==-1){
+  foundOperatorIndex=operator2Index
+  foundOperator='*'
+}else if(operator3Index!==-1){
+  foundOperatorIndex=operator3Index
+  foundOperator='/'
+}
+console.log("operatorIndex-->",operatorIndex,"operator1Index-->",operator1Index,"operator2Index-->",operator2Index,"operator3Index-->",operator3Index)
+console.log("foundOpetaorIndex-->",foundOperatorIndex,"foundOperator-->",foundOperator)
+console.log(data.substring(0,foundOperatorIndex))
+console.log(data.substring(foundOperatorIndex+1))
