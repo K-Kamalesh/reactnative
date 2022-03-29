@@ -1,0 +1,59 @@
+let data="100+500"
+let operatorIndex=data.indexOf('+')
+let operator1Index=data.indexOf('-')
+let operator2Index=data.indexOf('*')
+let operator3Index=data.indexOf('/')
+let operator4Index=data.indexOf('%')
+let foundOperatorIndex;
+let foundOpetaor;
+let result;
+let Result;
+let Data;
+let Data1;
+let Data2;
+let Data3;
+let Data4;
+if(operatorIndex!==-1){
+  foundOperatorIndex=operatorIndex
+  foundOperator='+'
+}else if(operator1Index!==-1){
+  foundOperatorIndex=operator1Index
+  foundOperator='-'
+   Data1= result-Result
+}else if(operator2Index!==-1){
+  foundOperatorIndex=operator2Index
+  foundOperator='*'
+   Data2= result*Result
+}else if(operator3Index!==-1){
+  foundOperatorIndex=operator3Index
+  foundOperator='/'
+   Data3=result/Result
+}
+else if(operator4Index!==-1){
+  foundOperatorIndex=operator4Index
+  foundOperator='%'
+  Data4=result%Result
+}
+let a=data.substring(0,foundOperatorIndex)
+let b=data.substring(foundOperatorIndex+1)
+// console.log(b)
+result=parseInt(a)
+ Result=parseInt(b)
+if(operatorIndex!==-1){
+  Data= result+Result
+  }else if(operator1Index!==-1){
+   Data1= result-Result
+}else if(operator2Index!==-1){
+   Data2= result*Result
+  console.log(Data2)
+}else if(operator3Index!==-1){
+   Data3=result/Result
+}
+else if(operator4Index!==-1){
+  Data4=result%Result
+}
+console.log("operatorIndex-->",operatorIndex,"operator1Index-->",operator1Index,"operator2Index-->",operator2Index,"operator3Index-->",operator3Index,"operator4Index-->",operator4Index)
+console.log("foundOpetaorIndex-->",foundOperatorIndex,"foundOperator-->",foundOperator)
+console.log(data.substring(0,foundOperatorIndex))
+console.log(data.substring(foundOperatorIndex+1))
+console.log("Data+-->",Data,"Data1 - -->",Data1,"Data2*-->",Data2,"Data2/-->",Data3,"Data4%-->",Data4)
