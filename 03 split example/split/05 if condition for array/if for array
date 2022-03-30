@@ -1,0 +1,23 @@
+let data=[1,2,3,4,5,6,7,8,9,10];
+let data2=[2,4,5,6];
+let array=[];
+let array1=[];
+let matches=false
+for (let i=0;i<data.length;i++){
+  matches=false
+  console.log(matches,data[i])
+  for (let j=0;j<data2.length;j++){
+    if(data[i]===data2[j]){
+      matches=true
+      console.log(matches,data[i])
+    }
+  }
+    if(matches===false){
+      array.push(data[i])
+    }
+  if(matches===true){
+    array1.push(data[i])
+  }
+  
+}console.log(array)
+console.log(array1)
