@@ -1,0 +1,4 @@
+let studentNames = ["Arul", "Ashok", "Arivu"]
+let result=studentNames.length
+let add=studentNames.push("alex")
+console.log(studentNames,result)
