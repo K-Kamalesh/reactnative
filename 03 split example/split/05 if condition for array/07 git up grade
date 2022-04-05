@@ -1,0 +1,22 @@
+let grade=64
+if(grade>100){
+  console.log("invaid mark")
+}
+  if(grade>=91&&grade<100){
+    console.log("A grade")
+  }
+    if(grade>=81&&grade<90){
+      console.log("B grade")
+    }
+     if(grade>=71&&grade<80){
+       console.log("C grade")
+     }
+if(grade>=61&&grade<70){
+  console.log("D grade")
+}
+if(grade>=51&&grade<60){
+  console.log("E grade")
+}
+if(grade>=0&&grade<50){
+  console.log("F fail")
+}
