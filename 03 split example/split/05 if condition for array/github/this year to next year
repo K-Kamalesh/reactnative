@@ -1,0 +1,11 @@
+let name="arul"
+let age=24
+let martial_status="true"
+let workingcompany="goggle"
+let name1="kamalesh"
+let age1=23
+let martial_status1="false"
+let workingcompany1="facebook"
+
+console.log(name,age,martial_status,workingcompany)
+console.log(name1,age1,martial_status1,workingcompany1)
