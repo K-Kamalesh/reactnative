@@ -1,0 +1,5 @@
+let name="arul"
+let age=24
+let martial_status="married"
+let workingcompany="goggle"
+console.log(name,age,martial_status,workingcompany)
