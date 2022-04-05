@@ -1,0 +1,25 @@
+let idaly=true
+let sambar=true
+let  dosa=true;
+let  chatanie=true;
+
+        if(dosa&&sambar)
+{
+
+        console.log("dosa order "); 
+
+        }
+
+        else if (idaly&&chatanie)
+{
+       
+       console.log("idaly order");
+
+        }
+
+        else
+ {
+  
+          console.log("didnt purchase any thing");
+ }
+    
