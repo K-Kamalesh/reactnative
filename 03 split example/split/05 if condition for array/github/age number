@@ -1,0 +1,2 @@
+let myage="24"
+console.log(myage)
