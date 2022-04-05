@@ -1,0 +1,5 @@
+let productPrice = 200
+let productGstPercent = 10 
+let productDiscount = 5
+let price=(productPrice+productGstPercent)-productDiscount
+console.log(price)
