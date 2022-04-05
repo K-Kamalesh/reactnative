@@ -1,0 +1,3 @@
+let studentNames = ["Arul", "Ashok", "Arivu"]
+let result=studentNames.length
+console.log(studentNames,result)
