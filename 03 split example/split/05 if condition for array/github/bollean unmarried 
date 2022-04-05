@@ -1,0 +1,8 @@
+let status="kamalesh"
+let boolean=false
+if(boolean==true){
+  console.log("kamalesh ismarraied")
+}
+else{
+  console.log("kamalesh unmarraied")
+}
