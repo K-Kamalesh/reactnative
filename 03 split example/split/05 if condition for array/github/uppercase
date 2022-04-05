@@ -1,0 +1,3 @@
+let myname="kamalesh"
+let upper=myname.toUpperCase()
+console.log(upper)
